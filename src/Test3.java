@@ -90,7 +90,7 @@ public class Test3 extends javax.swing.JFrame {
         String movie;
         movie=txtmovie.getText();
         String times[]= getTimes(info,movie);
-        txtoutput.setText("The times are");
+        txtoutput.setText("The times are: ");
         for(int x=0; x<times.length; x++){
             txtoutput.append("\n"+times[x]);
         }
